@@ -5,9 +5,7 @@ public class Palindrom {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter One Number");
         int num=sc.nextInt();
-
         int temp=num;
-         
         int rev=0;
         while (num !=0) { 
             int digit=num%10;
