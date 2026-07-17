@@ -12,6 +12,7 @@ public class Count {
             n=n/10;
             count++;
         }
+        
         System.out.println("Count: "+ count);
     }
 }
