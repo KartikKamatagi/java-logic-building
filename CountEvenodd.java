@@ -6,7 +6,6 @@ public class CountEvenodd {
         Scanner sc=new Scanner(System.in);
 
         System.out.println("Enter numbers");
-
         int n=sc.nextInt();
 
         int even=0;
@@ -23,7 +22,7 @@ public class CountEvenodd {
             }
             n=n/10;
         }
-        System.out.println("Count Even: " + even);
-        System.out.println("Count Odd: " + odd);
+        System.out.println("Count Even numbers: " + even);
+        System.out.println("Count Odd numbers: " + odd);
     }
 }
