@@ -10,7 +10,12 @@ public class Fibonacci {
         int a=0;
         int b=1;
 
-        System.out.println("Enter Series: ");
-        for(int i=0)
+        System.out.println(" Series: ");
+        for(int i=0; i<n; i++){
+            System.out.println(a+ " ");
+            int c=a+b;
+            a=b;
+            b=c;
+        }
     }
 }
