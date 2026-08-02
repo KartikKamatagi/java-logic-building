@@ -16,9 +16,9 @@ class Armstrong{
             n=n/10;
         }
         if(sum == original){
-            System.out.println("Armstrong ");
+            System.out.println("It's a Armstrong number");
         }else{
-            System.out.println("not");
+            System.out.println("It's not Armstrong number");
         }
     }
 
