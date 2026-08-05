@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Peterson {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter a number");
+        System.out.println("Enter a number: ");
 
         int num=sc.nextInt();
 
@@ -23,10 +23,10 @@ public class Peterson {
             num=num/10;
         }
         if(sum == original){
-            System.out.println("Its a peterson");
+            System.out.println("It's a peterson number");
         }
         else{
-            System.out.println("Its not peterson");
+            System.out.println("It's not peterson number");
         }
     }
 }
