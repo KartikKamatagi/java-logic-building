@@ -19,6 +19,7 @@ public class HarshadNumber {
         }
 
         if (original % sum == 0) {
+            
             System.out.println("Harshad Number");
         } else {
             System.out.println("Not a Harshad Number");
