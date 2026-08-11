@@ -19,10 +19,10 @@ public class AutomorphicNumber {
 
         }
         int divisor=1;
-        for(int i=0; i<=count; i++){
+        for(int i=1; i<=count; i++){
             divisor=divisor*10;
         }
-        if(square % divisor == 0){
+        if(square % divisor == original){
             System.out.println("its AutomorphicNumber ");
         }else{
             System.out.println("its not AutomorphicNumber ");
