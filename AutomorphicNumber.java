@@ -12,7 +12,7 @@ public class AutomorphicNumber {
         int count=0;
         int temp=num;
 
-        while(num != 0){
+        while(temp != 0){
             count ++;
             temp=temp/10;
 
