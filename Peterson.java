@@ -19,6 +19,7 @@ public class Peterson {
             for(int i=1; i<=digit; i++){
                 fact= fact*i;
             }
+            
             sum=sum + fact;
             num=num/10;
         }
