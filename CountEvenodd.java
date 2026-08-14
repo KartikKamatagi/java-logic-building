@@ -19,6 +19,7 @@ public class CountEvenodd {
             }
             else{
                 odd ++;
+                
             }
             n=n/10;
         }
