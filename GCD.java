@@ -21,6 +21,7 @@ public class GCD {
         }
 
         System.out.println("GCD = " + gcd);
+        
 
         sc.close();
     }
