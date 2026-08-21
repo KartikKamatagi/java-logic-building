@@ -13,6 +13,7 @@ public class DuckNumber {
         while (num != 0) {
 
             int digit = num % 10;
+            
 
             if (digit == 0) {
                 duck = true;
