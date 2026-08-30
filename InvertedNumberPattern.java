@@ -7,6 +7,7 @@ public class InvertedNumberPattern {
 
         System.out.print("Enter number of rows: ");
         int n = sc.nextInt();
+        
 
         for (int i = n; i >= 1; i--) {
 
