@@ -4,7 +4,7 @@ import java.util.Scanner;
 class NewPattern{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter Number: ");
+        System.out.println("Enter Pattern Number: ");
         int n=sc.nextInt();
 
         for(int i=1; i<=n; i++){
